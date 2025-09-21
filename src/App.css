@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --bg-colour: linear-gradient(to bottom right, #1D4ED8, #0284C7, #10B981);
+  --main-font: monospace;
+}
+
+body {
+  background: var(--bg-colour);
+  font-family: var(--main-font);
+  min-height: 100vh;           
+}
